@@ -2,10 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import Box from '@mui/material/Box';
 import { styled } from '@mui/material/styles';
-import Header from './Components/Header';
+import Header from './components/Header';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import { createBrowserRouter } from 'react-router-dom';
-import HomePage from './Pages/HomePage/HomePage';
+import { Outlet, createBrowserRouter } from 'react-router-dom';
+import HomePage from './pages/homePage/HomePage';
+import { Children } from 'react';
 
 
 
@@ -28,10 +29,15 @@ const darkTheme = createTheme({
   },
 });
 
-const router=createBrowserRouter([
+export const router=createBrowserRouter([
   {
     path:'/',
-    element:<Header/>
+    element:<App/>,
+    children:[{
+      path:"",
+      element:<HomePage/>
+
+    }]
   }
 ])
 function App() {
@@ -42,7 +48,7 @@ function App() {
       
     <Root className={classes.app}>
       <Header/>
-      <HomePage/>
+      <Outlet/>
     </Root>
     </ThemeProvider>
   );
