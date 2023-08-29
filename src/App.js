@@ -16,7 +16,7 @@ const classes={
 const Root=styled('div')(()=>({
   [`&.${classes.app}`]:{
     backgroundColor:'#14161a',
-    height:'100vh',
+    height:'100%',
     color:'white',
     
 

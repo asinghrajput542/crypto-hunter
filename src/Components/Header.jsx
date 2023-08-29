@@ -8,15 +8,15 @@ import {
   MenuItem,
 } from "@mui/material";
 import { useCryptoState } from "../utils/Context";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Header = () => {
   const { currency, setCurrency } = useCryptoState();
+  const navigate = useNavigate();
   return (
     <AppBar color="transparent" position="static">
       <Container>
         <Toolbar>
-          {/* <Link to={"/"}> */}
           <Typography
             variant="h6"
             className="title"
@@ -27,10 +27,10 @@ const Header = () => {
               fontWeight: "bold",
               cursor: "pointer",
             }}
+            onClick={() => navigate("/")}
           >
             Crypto Hunter
           </Typography>
-          {/* </Link> */}
 
           <Select
             variant="outlined"
