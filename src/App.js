@@ -1,12 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-import Box from '@mui/material/Box';
 import { styled } from '@mui/material/styles';
-import Header from './components/Header';
+import Header from './components/Header.jsx';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { Outlet, createBrowserRouter } from 'react-router-dom';
 import HomePage from './pages/homePage/HomePage';
-import { Children } from 'react';
 
 
 
