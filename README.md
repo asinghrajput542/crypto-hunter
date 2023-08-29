@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1><strong>Crypto Hunter</strong></h1>
 
-## Available Scripts
+<!--<h2>
+  <a href="https://react-textflow.vercel.app/">Live URL</a>
+</h2>-->
+</div>
 
-In the project directory, you can run:
 
-### `npm start`
+Crypto Hunter is dashboard of cryptocurrencies and their information using Coingecko APIs.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## :star: Features
+- [x] Carrousel with the top cryptocurrencies
+- [x] Listing all various of different cryptocurrencies
+- [x] Pagination feature
+- [x] Search for your favorite cryptocurrency
+- [x] Currency selector (INR/USD)
+- [x] ChartJS with filter options (24h / 30 days / 3 months / 1 year)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Techstacks ✨
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![mui](https://camo.githubusercontent.com/817fc7ba268e7e1fa114cbc4328bb326913cf392f5e2077ccc7b5f0e90a77109/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6174657269616c25323055492d3030374646463f7374796c653d666f722d7468652d6261646765266c6f676f3d6d7569266c6f676f436f6c6f723d7768697465)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Deployments
+![vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!--## Pages
 
-### `npm run eject`
+### :small_blue_diamond: Home Page
+On very first time you will be redirected to HOME page, there you will see the list of documents & create new document.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+----
+![home](https://raw.githubusercontent.com/asinghrajput542/Images/main/Home.jpg)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### :small_blue_diamond: Create Document
+Create new document by providing the name
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+----
+![create-doc](https://raw.githubusercontent.com/asinghrajput542/Images/main/New-Doc.jpg)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### :small_blue_diamond: Single Document
+Edit and see single doc, after clicked on listed doc/new doc
 
-### Code Splitting
+----
+![single-doc](https://raw.githubusercontent.com/asinghrajput542/Images/main/Editor.jpg)
+-->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Frameworks & Libraries used 📚
 
-### Analyzing the Bundle Size
+`ReactJS` `CSS3` `react-router-dom` `react-alice-carousel` `MUI-components` 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Usage 🍕
 
-### Making a Progressive Web App
+To use this project, follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Clone the repository.
+2. Install the dependencies using `npm install`.
+3. Start the development server using `npm start`.
+4. Open your web browser and navigate to `http://localhost:3000`.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
