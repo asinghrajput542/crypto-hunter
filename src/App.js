@@ -1,6 +1,6 @@
 import './App.css';
 import { styled } from '@mui/material/styles';
-import Header from './components/Header.jsx';
+import Header from './components/Header';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { Outlet, createBrowserRouter } from 'react-router-dom';
 import HomePage from './pages/homePage/HomePage';
