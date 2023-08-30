@@ -2,9 +2,9 @@
 
 <h1><strong>Crypto Hunter</strong></h1>
 
-<!--<h2>
-  <a href="https://react-textflow.vercel.app/">Live URL</a>
-</h2>-->
+<h2>
+  <a href="https://crypto-hunter-4q4my78sw-asinghrajput542.vercel.app/">Live URL</a>
+</h2>
 </div>
 
 
