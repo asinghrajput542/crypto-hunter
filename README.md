@@ -32,24 +32,24 @@ Crypto Hunter is dashboard of cryptocurrencies and their information using Coing
 ## Deployments
 ![vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-<!--## Pages
+## Pages
 
 ### :small_blue_diamond: Home Page
-On very first time you will be redirected to HOME page, there you will see the list of documents & create new document.
+Upon your first visit, our landing page combines a top 10 cryptocurrency carousel for market cap insights with a concise list of available cryptocurrencies to keep you informed.
 
 ----
-![home](https://raw.githubusercontent.com/asinghrajput542/Images/main/Home.jpg)
+![home](https://github.com/asinghrajput542/Images/blob/main/ch-home.jpg)
 
 
-### :small_blue_diamond: Create Document
-Create new document by providing the name
+### :small_blue_diamond: List of Cryptocurrency 
+Explore a structured list of cryptocurrency prices by market cap and enjoy hassle-free currency searches on our user-friendly platform.
 
 ----
-![create-doc](https://raw.githubusercontent.com/asinghrajput542/Images/main/New-Doc.jpg)
+![listing](https://github.com/asinghrajput542/Images/blob/main/ch-list.jpg)
 
 
 
-### :small_blue_diamond: Single Document
+<!--### :small_blue_diamond: Single Document
 Edit and see single doc, after clicked on listed doc/new doc
 
 ----
