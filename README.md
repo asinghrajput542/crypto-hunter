@@ -35,7 +35,7 @@ Crypto Hunter is dashboard of cryptocurrencies and their information using Coing
 ## Pages
 
 ### :small_blue_diamond: Home Page
-Upon your first visit, our landing page combines a top 10 cryptocurrency carousel for market cap insights with a concise list of available cryptocurrencies to keep you informed.
+Our landing page, on your initial visit, seamlessly integrates a currency selector (INR/USD) with a top 10 cryptocurrency carousel for valuable market cap insights. Additionally, you'll find a concise list of available cryptocurrencies.
 
 ----
 ![home](https://github.com/asinghrajput542/Images/blob/main/ch-home.jpg)
